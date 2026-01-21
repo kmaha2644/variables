@@ -1,0 +1,23 @@
+let name= "Maha";
+document.write(name +"<br>");
+
+let names=["Maha","Aiman","Firdos","Saeda"];
+document.write(names +"<br>");
+document.write(names [2] +"<br>");
+document.write(names.slice(0,3) +"<br>");
+document.write(names.splice(2) +"<br>");
+document.write(names +"<br>");
+document.write(names.unshift("Aliza","Rumaisa","Wajeeha") +"<br>");
+document.write(names +"<br>");
+document.write(names.shift() +"<br>");
+document.write(names +"<br>");
+document.write(names.push("Durdana","Mahi","Safia") +"<br>");
+document.write(names +"<br>");
+names.pop();
+document.write(names +"<br>");
+names.pop();
+document.write(names +"<br>");
+names.pop();
+document.write(names +"<br>");
+names.pop();
+document.write(names +"<br>");
