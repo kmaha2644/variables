@@ -30,7 +30,7 @@ let num2=prompt("Enter Second Number");
 if (num1 > num2) {
    console.log("First Number is Greater");
 } else if (num2 > num1) {
-   console.log("Second Number is Greater"):
+   console.log("Second Number is Greater");
 } else {
     console.log("Both Numbers are Equal");
 }
