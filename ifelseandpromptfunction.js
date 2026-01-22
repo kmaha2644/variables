@@ -8,6 +8,26 @@ if (num > 0 ) {
     console.log("Zero");
 }
 
+//1. Show the number is Positive or Negetive:
+let num=prompt("Enter a Number");
+if (num > 0 ) {
+    alert("Positive Number");
+} else if (num < 0 ) {
+    alert("Negative Number");
+} else {
+    alert("Zero");
+}
+
+//1. Show the number is Positive or Negetive:
+let num=prompt("Enter a Number");
+if (num > 0 ) {
+    document.write("Positive Number");
+} else if (num < 0 ) {
+    document.write("Negative Number");
+} else {
+    document.write("Zero");
+}
+
 //2. Even or Odd:
 let num=prompt("Enter a Number");
 if (num % 2=== 0 ) {
