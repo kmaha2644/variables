@@ -17,7 +17,7 @@ if (num % 2=== 0 ) {
 }
 
 //3. Adult or Minor:
-let num=prompt("Enter a Number");
+let age=prompt("Enter a Number");
 if (age >= 18 ) {
     console.log("Adult");
 } else {
